@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Oswald:wght@300;400&family=Roboto:wght@300;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+
+<body>
+  <header>
+    <div class="header__wrapper">
+      <nav class="nav">
+        <li class="nav__item">
+          <a class="nav__item-link" href="#About-me">About-me</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-link" href="#Skills">Skills</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-link" href="#Code example">Code example</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-link" href="#Education">Education</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-link" href="#Courses">Courses</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-link" href="#Languages">Languages</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-link" href="#Contacts">Contacts</a>
+        </li>
+      </nav>
+      <div class="header__content">
+        <img class="header__img" src="img/avatar.jpg" alt="avatar">
+        <h1 class="title">Bohdan Atamaniuk</h1>
+        <h2 class="subtitle">Front-End Developer</h2>
+      </div>
+    </div>
+  </header>
+
+  <section id="About-me">
+    <div class="about">
+      <h3>About me</h3>
+      <p>I am very motivated React Developer looking for a new opportunities and challenges.
+        I have a small experience in web development, but
+        every day I learn this technologies such as of HTML, CSS, Javascript and React.
+      </p>
+    </div>
+  </section>
+
+  <section id="Skills">
+    <div class="skills">
+      <h3 class="title-skills">Skills</h3>
+      <ul class="skills__item">
+        <li class="skills__item-link">Html
+          <div class="scale-html">
+            <div class="scale__progres-html"></div>
+          </div>
+        </li>
+        <li class="skills__item-link">CSS
+          <div class="scale-css">
+            <div class="scale__progres-css"></div>
+          </div>
+        </li>
+        <li class="skills__item-link">Git
+          <div class="scale-git">
+            <div class="scale__progres-git"></div>
+          </div>
+        </li>
+        <li class="skills__item-link">Javascript
+          <div class="scale-javascript">
+            <div class="scale__progres-javascript"></div>
+          </div>
+        </li>
+        <li class="skills__item-link">React
+          <div class="scale-react">
+            <div class="scale__progres-react"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="Education">
+    <div class="education">
+      <h3 class="title-education">Education</h3>
+      <p>Ivano-Frankivsk National Technical University of Oil and Gas, Mechanical Engineer</p>
+    </div>
+  </section>
+
+  <section id="Courses">
+    <div class="courses">
+      <h3 class="title-courses">Courses</h3>
+      <ul class="courses__item">
+        <li class="courses__item-link">Udemy courses</li>
+        <li class="courses__item-link">Sololearn</li>
+        <li class="courses__item-link">Learnjavascript.ru</li>
+        <li class="courses__item-link">Freecodecamp</li>
+        <li class="courses__item-link">Codewars</li>
+      </ul>
+      </ul>
+    </div>
+  </section>
+
+  <section id="Code example">
+    <div class="code">
+      <h3 class="title-code">Example code</h3>
+      <pre>
+       <code>
+        const cart = function () {
+          const cartBtn = document.querySelector('.button-cart');
+          const cart = document.getElementById('modal-cart');
+          const closeBtn = document.querySelector('.modal-close');
+          
+            cartBtn.addEventListener('click', () => {
+              cart.style.dispaly = 'flex'
+            });
+            closeBtn.addEventListener('click', () => {
+              cart.style.dispaly = 'none';
+            });
+        };
+       </code>
+      </pre>
+    </div>
+  </section>
+
+  <section id="Languages">
+    <div class="languages">
+      <h3 class="title-languages">English</h3>
+      <p>Level: A2/B1</p>
+    </div>
+  </section>
+
+  <section id="Contacts">
+    <div class="contacts">
+      <h3 class="title-contacts">Contacts</h3>
+      <ul class="contacts__item">
+        <li class="contacts__item-link"><span>Location:</span> Praha, Czech Republic</li>
+        <li class="contacts__item-link"><span>Phone:</span> +420776290438</li>
+        <li class="contacts__item-link"><span>Email:</span> 0997393654b@gmail.com</li>
+        <li class="contacts__item-link"><span>GitHub:</span> @Bohdan2909</li>
+        <li class="contacts__item-link"> <span>LinkedIn:</span> Bohdan Atamaniuk</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="experience">
+      <h3 class="title-experience">Experience</h3>
+      <p> Only pet project and projects for my friends</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="footer__year">2021</div>
+      <div class="footer__git">
+        <a class="footer__link" target="_blank" href="https://github.com/Bohdan2909">
+          <img src="img/github.png" alt="github">
+        </a>
+        <div class="footer__text">My GitHub</div>
+      </div>
+      <div class="footer__rs">
+        <a class="footer__link-rs" href="https://rs.school/js-stage0/">
+          <img src="img/rs_school.svg" alt="rs">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
