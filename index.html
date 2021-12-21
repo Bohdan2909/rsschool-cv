@@ -4,11 +4,80 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Oswald:wght@300;400&family=Roboto:wght@300;700&display=swap"
+   rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>CV</title>
 </head>
 <body>
-  <div class="wrapper">
+  <header>
+   <div class="header__wrapper">
+    <nav class="nav">      
+      <li class="nav__item">
+        <a class="nav__item-link" href="#About-me">About-me</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__item-link" href="#Skills">Skills</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__item-link" href="#Code example">Code example</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__item-link" href="#Education">Education</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__item-link" href="#Languages">Languages</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__item-link" href="#Contacts">Contacts</a>
+      </li>   
+  </nav>
+  <div class="header__content">
+    <img class="header__img" src="img/avatar.jpg" alt="avatar">
+    <h1 class="title">Bohdan Atamaniuk</h1>
+    <h2 class="subtitle">Front-End Developer</h2>
+  </div>
+   </div>
+  </header>
+
+  <section id="About-me">
+    <div class="about">
+      <h3>About me</h3>
+      <p>I am very motivated React Developer looking for a new opportunities and challenges.
+        I have a small experience in web development, but 
+        every day I learn this technologies such as of HTML, CSS, Javascript and React.
+      </p>
+    </div>
+  </section>
+
+  <section id="Skills">
+    <div class="skills">
+      <h3 class="title-skills">Skills</h3>
+      <ul class="skills__item">
+        <li class="skills__item-link">Html
+          <div class="scale">
+            <div class="scale-progres"></div>
+          </div>
+        </li>
+        <li class="skills__item-link">CSS/SCSS</li>
+        <li class="skills__item-link">Git</li>
+        <li class="skills__item-link">Javascript</li>
+      </ul>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="wrapper">
     <div class="title">
       <h1>Atamaniuk Bohdan</h1>
       <h2 class="subtitle">Frontend Developer</h2>
@@ -69,7 +138,7 @@
       <h2>English</h2>
       <p>A2/B1</p>
     </div>
-  </div>
+  </div> -->
 
   
 </body>
